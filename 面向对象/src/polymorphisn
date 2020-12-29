@@ -1,0 +1,36 @@
+//多态
+
+class People {
+    constructor(name, age) {
+        this.name = name;
+    }
+
+    saysomething() {
+
+    }
+}
+
+class A extends People {
+    constructor(name) {
+        super(name);
+    }
+
+    saysomething() {
+        console.log("I am A");
+    }
+}
+
+class B extends People {
+    constructor(name) {
+        super(name);
+    }
+
+    saysomething() {
+        console.log("I am B");
+    }
+}
+
+let a = new A('a');
+a.saysomething();
+let b = new B('b');
+b.saysomething();
