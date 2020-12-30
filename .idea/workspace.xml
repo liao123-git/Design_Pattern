@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84931a9f-51be-4e71-bd3d-4060556fa68d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/设计原则/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/设计原则/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面向对象/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/assets/工厂模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +20,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/设计原则/README.md">
+        <entry file="file://$PROJECT_DIR$/工厂模式/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="464">
-                <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+              <first_editor relative-caret-position="90">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,6 +69,8 @@
         <option value="$PROJECT_DIR$/面向对象/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/设计原则/README.md" />
+        <option value="$PROJECT_DIR$/工厂模式/src/index.js" />
+        <option value="$PROJECT_DIR$/工厂模式/README.md" />
       </list>
     </option>
   </component>
@@ -74,7 +81,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
+    <option name="x" value="-320" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -94,7 +101,7 @@
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="设计原则" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,19 +113,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/设计原则/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\19236\Desktop\git\Design_Pattern" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则\src" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\面向对象\src" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则" />
-      <recent name="C:\Users\19236\Desktop\git\Design_Pattern" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19236\Desktop\git\Design_Pattern\工厂模式\src\assets" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则\src" />
     </key>
   </component>
@@ -146,12 +154,12 @@
       <updated>1609139864912</updated>
       <workItem from="1609139868127" duration="2139000" />
       <workItem from="1609200724521" duration="17560000" />
-      <workItem from="1609286758362" duration="5399000" />
+      <workItem from="1609286758362" duration="8641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25098000" />
+    <option name="totallyTimeSpent" value="28340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -273,16 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计原则/src/question1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -310,11 +308,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/README.md">
+    <entry file="file://$PROJECT_DIR$/设计原则/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <first_editor relative-caret-position="464">
+            <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -323,18 +321,51 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="67" selection-start-line="67" selection-end-line="68" selection-end-column="131" />
+          <first_editor relative-caret-position="68">
+            <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/设计原则/README.md">
+    <entry file="file://$PROJECT_DIR$/工厂模式/src/assets/工厂模式.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="464">
-            <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <first_editor relative-caret-position="378">
+            <caret line="21" column="129" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="129" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工厂模式/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工厂模式/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
           </first_editor>
           <second_editor />
         </state>
