@@ -1,7 +1,7 @@
 # 面向对象
 ### 三要素
 - 继承，子类继承父类
-    - 父类是公共的，不仅仅服务于某个子类
+    - 父类是公共的，不仅仅服务于某个子s类
     - 继承可将公共方法抽离出来，提高复用，减少冗余
     - [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/src/inheritance.js "样例")
 - 封装，数据的权限和保密
@@ -21,7 +21,7 @@
     - 了解即可
     - [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/src/polymorphisn.js "样例")
 
-###为何使用面向对象
+### 为何使用面向对象
 - 程序执行：顺序、判断、循环————结构化  
 - 面向对象————数据结构化
 - 对于计算机，结构化才是最简单的

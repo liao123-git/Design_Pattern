@@ -1,4 +1,4 @@
-#设计原则
+# 设计原则
 ### 《UNIX/LINUX设计哲学》准则
 - 小即是美
 - 让每个程序都只做好一件事
@@ -26,7 +26,7 @@
     - 使用方只关注接口而不关注具体类的实现
 
 
-#设计模式
+# 设计模式
 ### 23种设计模式
 - 创建型
     - 工厂模式 （工厂方法模式，抽象工厂模式，建造者模式）
@@ -53,5 +53,5 @@
     - 中介者模式
     - 解释器模式
 ### 面试题
-- [面试题-打车](https://www.processon.com/view/5fea864b7d9c087ce9a2f0a8 "简单")
-- [面试题-停车场](https://www.processon.com/view/5fea864b7d9c087ce9a2f0a8 "困难")
+- [面试题-打车](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/src/question1.js "简单")
+- [面试题-停车场](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/src/question2.js "困难")
