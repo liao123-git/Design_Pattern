@@ -12,4 +12,4 @@
 - 将旧接口和使用者进行分离
 - 符合开放封闭原则
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/src/index.js "样例")
