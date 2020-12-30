@@ -12,4 +12,4 @@
 - 符合单一职责原则，只实例化唯一的对象
 - 没法具体开放封闭原则，但是绝对不违反开放封闭原则
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/src/index.js "样例")
