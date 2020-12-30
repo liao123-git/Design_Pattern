@@ -52,6 +52,7 @@ window.$ = function (selector) {
     //工厂模式
     return new jQuery(selector);
 };
+
 $("body").append('<div class="test" style="color: red">asdfasdf</div>');
 let div = $(".test");
 div.addClass('green');
