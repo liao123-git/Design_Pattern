@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84931a9f-51be-4e71-bd3d-4060556fa68d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/工厂模式/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/src/assets/工厂模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/工厂模式/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84931a9f-51be-4e71-bd3d-4060556fa68d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +10,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代理模式/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/工厂模式/README.md">
+        <entry file="file://$PROJECT_DIR$/代理模式/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,11 +86,15 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,13 +105,17 @@
             <path>
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="代理模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
               <item name="工厂模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,15 +127,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19236\Desktop\git\Design_Pattern\工厂模式\src\assets" />
+      <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则\src" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\面向对象\src" />
       <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\19236\Desktop\git\Design_Pattern\工厂模式\src\assets" />
-      <recent name="C:\Users\19236\Desktop\git\Design_Pattern\设计原则\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,13 +167,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28340000" />
+    <option name="totallyTimeSpent" value="28365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +186,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26760563" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26760563" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
