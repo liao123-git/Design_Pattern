@@ -67,3 +67,15 @@
 - 面试题
     - [面试题-打车](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/src/question1.js "简单")
     - [面试题-停车场](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/src/question2.js "困难")
+    
+### 各种设计模式对比
+- 代理模式 vs 适配器模式
+    - 适配器模式
+        - 提供一个不同的接口（如不同版本的插头）
+    - 代理模式
+        - 提供一模一样的接口
+- 代理模式 vs 装饰器模式
+    - 装饰器模式
+        - 扩展功能，原有功能不变且可直接使用
+    - 代理模式
+        - 显示原有功能，但是经过限制或者阉割之后的
