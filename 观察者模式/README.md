@@ -17,4 +17,4 @@
 - 主题和观察者分离，不是主动出发而是被动监听，两者解耦
 - 符合开放封闭原则
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/src/index.js "样例")
