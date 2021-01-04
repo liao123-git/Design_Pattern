@@ -10,4 +10,4 @@
     - 若干年后 ES6 全面普及，大家可能会忽略掉 prototype
     - 但是 Object.create 却会长久存在
     
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F/src/index.js "样例")
