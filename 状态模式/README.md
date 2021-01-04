@@ -14,4 +14,4 @@
 - 将状态对象和主题对象分离，状态的变化逻辑单独处理
 - 符合开放封闭原则
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/src/index.js "样例")
