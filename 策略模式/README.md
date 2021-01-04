@@ -7,4 +7,4 @@
 - 不同策略，分开处理，而不是混合在一起
 - 符合开放封闭原则 
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/src/index.js "样例")
