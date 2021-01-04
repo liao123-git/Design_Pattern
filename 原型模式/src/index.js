@@ -1,28 +1,20 @@
-let arr = [1, 2, 3];
-let nodeList = document.getElementsByTagName('p');
-let $p = $('p');
+const prototype = {
+    getName() {
+        return this.first + ' ' + this.last;
+    },
+    say() {
+        alert('hello');
+    },
+};
 
-arr.forEach((item) => {
-    console.log(item);
-});
+let x = Object.create(prototype);
+x.first = "X";
+x.last = "x";
+alert(x.getName());
+x.say();
 
-let i, length = nodeList.length;
-for (i = 0; i < length; i++) {
-    console.log(nodeList[i]);
-}
-
-$p.each((key, p) => {
-    console.log(key, p);
-});
-
-function each(data) {
-    let $data = $(data); // 生成迭代器
-
-    $data.each((key, val) => {
-        console.log(key, val);
-    });
-}
-
-each(arr);
-each(nodeList);
-each($p);
+let y = Object.create(prototype);
+y.first = "Y";
+y.last = "y";
+alert(y.getName());
+y.say();
