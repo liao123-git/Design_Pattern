@@ -8,4 +8,4 @@
 - 发起者与各个处理者隔离
 - 符合开放封闭原则 
 
-### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/src/index.js "样例")
+### [样例](https://github.com/liao123-git/Design_Pattern/blob/main/%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F/src/index.js "样例")
