@@ -1,28 +1,72 @@
-let arr = [1, 2, 3];
-let nodeList = document.getElementsByTagName('p');
-let $p = $('p');
+class State {
+    constructor(color){
+        this.color = color;
+    }
+    handle(context) {
+        console.log(`turn to ${this.color} light`);
+        context.setState(this);
+    }
+}
+class Context {
+    constructor(){
+        this.state = null;
+    }
+    getState(){
+        return this.state;
+    }
+    setState(state){
+        this.state = state;
+    }
+}
+let context = new Context();
+let green = new State('green');
+let red = new State('red');
 
-arr.forEach((item) => {
-    console.log(item);
+green.handle(context);
+console.log(context.getState());
+red.handle(context);
+console.log(context.getState());
+
+import StateMachine from 'javascript-state-machine';
+
+let fsm = new StateMachine({
+    init: '收藏',
+    transitions: [
+        {
+            name: "doStore",
+            form: "收藏",
+            to: "取消收藏",
+        },
+        {
+            name: "deleteStore",
+            form: "取消收藏",
+            to: "收藏",
+        }
+    ],
+    methods: {
+        onDoStore(){
+            alert('收藏成功'); // 可以在这添加 post 请求
+            updateText();
+        },
+        onDeleteStore(){
+            alert('已经取消收藏'); // 可以在这添加 post 请求
+            updateText();
+        },
+    }
 });
 
-let i, length = nodeList.length;
-for (i = 0; i < length; i++) {
-    console.log(nodeList[i]);
+let btn = document.createElement('button');
+document.getElementsByTagName('body')[0].appendChild(btn);
+btn.onclick = ()=>{
+    if(fsm.is('收藏')){
+        fsm.doStore();
+    }else{
+        fsm.deleteStore();
+    }
+};
+
+function updateText(){
+    btn.innerHTML = fsm.state;
 }
 
-$p.each((key, p) => {
-    console.log(key, p);
-});
-
-function each(data) {
-    let $data = $(data); // 生成迭代器
-
-    $data.each((key, val) => {
-        console.log(key, val);
-    });
-}
-
-each(arr);
-each(nodeList);
-each($p);
+updateText();
